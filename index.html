@@ -158,6 +158,12 @@ nav.filter .chip:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 .hero::after{right:22.5%}
 .hero .hero-t::after{right:19%}
 @media (max-width:480px){.hero{padding:16px 14px 14px}.hero .wlogo{width:82%}.hero::before{width:22%;right:-12%}.hero::after{right:7%;width:8px}.hero .hero-t::after{right:3.5%;width:3px}}
+/* header: black underline band (replaces diagonal slashes) */
+.hero::before,.hero::after,.hero .hero-t::after{content:none;display:none}
+.hero{border-bottom:0;background:linear-gradient(to top,#141414 0 12px,#b3b3b3 12px 16px,var(--green) 16px);padding-bottom:38px}
+.sh{border-bottom:0;background:linear-gradient(to top,#141414 0 8px,#b3b3b3 8px 11px,var(--green) 11px);padding-bottom:24px}
+.sh.ref{background:linear-gradient(to top,#141414 0 8px,#b3b3b3 8px 11px,#6b5a3a 11px)}
+@media (max-width:480px){.hero{background:linear-gradient(to top,#141414 0 8px,#b3b3b3 8px 11px,var(--green) 11px);padding-bottom:26px}.sh{background:linear-gradient(to top,#141414 0 6px,#b3b3b3 6px 9px,var(--green) 9px);padding-bottom:22px}.sh.ref{background:linear-gradient(to top,#141414 0 6px,#b3b3b3 6px 9px,#6b5a3a 9px)}}
 </style></head>
 <body>
 <div id="login"><form id="lf" autocomplete="off">
@@ -176,7 +182,7 @@ nav.filter .chip:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 <script>
 (function(){
 var DATES=[{"d": "2026-09-22", "label": "2026年9月22日"}];
-var SALT="JaxLRglB0AhO5vI/qTEz5w==",CIV="kAx5f+KXX2KkgGMK",CHK="VO4NvbGB9Lu4WxLdJbDF9rVHFZkE334I",ITER=600000,KS="ffire-key-v2",DS="ffire-date";
+var SALT="JaxLRglB0AhO5vI/qTEz5w==",CIV="7od7GEYXL9l0SabU",CHK="K5//f9uZR2LNY/xQScywiB9c109aHSp9",ITER=600000,KS="ffire-key-v2",DS="ffire-date";
 var KEY=null;
 function d64(s){var r=atob(s),u=new Uint8Array(r.length);for(var i=0;i<r.length;i++)u[i]=r.charCodeAt(i);return u;}
 function e64(u){var s="";for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s);}
