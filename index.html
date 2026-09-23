@@ -179,6 +179,11 @@ nav.filter .chip:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 .sh::after{background:#141414;clip-path:polygon(0 6px,100% 2px,100% 100%,0 100%)}
 .sh::before{background:#b8b8b8;clip-path:polygon(0 5px,100% 1px,100% 2.5px,0 6.5px)}
 .sh.ref{background:#6b5a3a}}
+
+/* remove black bands */
+.hero::before,.hero::after,.sh::before,.sh::after{content:none!important;display:none!important}
+.hero{padding-bottom:24px}.sh{padding-bottom:16px}
+@media (max-width:480px){.hero{padding-bottom:16px}.sh{padding-bottom:14px}}
 </style></head>
 <body>
 <div id="login"><form id="lf" autocomplete="off">
@@ -197,7 +202,7 @@ nav.filter .chip:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 <script>
 (function(){
 var DATES=[{"d": "2026-09-22", "label": "2026年9月22日"}];
-var SALT="JaxLRglB0AhO5vI/qTEz5w==",CIV="4WfkFFGwffzFcDPl",CHK="ECBlLH8eq9dI7d9XnHMk9AWWXaCx9xuK",ITER=600000,KS="ffire-key-v2",DS="ffire-date";
+var SALT="JaxLRglB0AhO5vI/qTEz5w==",CIV="MPzU0WOE1hBu1qE/",CHK="7/dye4V5/o2IqW+41ClDvFK/yra8u80G",ITER=600000,KS="ffire-key-v2",DS="ffire-date";
 var KEY=null;
 function d64(s){var r=atob(s),u=new Uint8Array(r.length);for(var i=0;i<r.length;i++)u[i]=r.charCodeAt(i);return u;}
 function e64(u){var s="";for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s);}
