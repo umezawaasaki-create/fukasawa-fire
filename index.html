@@ -147,7 +147,7 @@ nav.filter .chip:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 
 #login{min-height:100vh;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;padding:24px 16px}
 #login form{width:100%;max-width:340px;text-align:center}
-#login img.llogo{width:92%;max-width:320px;height:auto;display:block;margin:0 auto 28px}
+#login img.llogo{width:92%;max-width:320px;height:auto;display:block;margin:0 auto calc(min(92%, 320px) * 0.475)}
 #login .lsub{margin:0 0 22px;font-weight:700;font-size:.95rem}
 #login label.l{display:block;text-align:left;font-size:.85rem;margin-bottom:6px;opacity:.9}
 #login #pw{width:100%;font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:10px;border:2px solid #fff;background:#fff;color:#222}
@@ -215,7 +215,7 @@ nav.filter .chip:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 <script>
 (function(){
 var DATES=[{"d": "2026-09-22", "label": "2026年9月22日"}];
-var SALT="JaxLRglB0AhO5vI/qTEz5w==",CIV="HAa3dD0tUPvKGIVZ",CHK="B7IyojXzzBNQ4mwrvxY3+FPOj90uOjuW",ITER=600000,KS="ffire-key-v2",DS="ffire-date";
+var SALT="JaxLRglB0AhO5vI/qTEz5w==",CIV="PNA0z4xOlWC6jQCC",CHK="Kd9iUIeZv/y/vrTCRN+i0c1MKorTqIdC",ITER=600000,KS="ffire-key-v2",DS="ffire-date";
 var KEY=null;
 function d64(s){var r=atob(s),u=new Uint8Array(r.length);for(var i=0;i<r.length;i++)u[i]=r.charCodeAt(i);return u;}
 function e64(u){var s="";for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s);}
