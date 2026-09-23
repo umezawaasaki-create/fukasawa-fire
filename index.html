@@ -98,14 +98,14 @@ nav.filter .chip:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 .filter-hint{margin-top:0}
 .cmp-pair{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px 14px 4px}
 .cmp-slot{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.cmp-slot figure{border-radius:0;aspect-ratio:480/460;display:flex;align-items:center;justify-content:center}
+.cmp-slot figure{border-radius:0;aspect-ratio:480/687;display:flex;align-items:center;justify-content:center}
 .cmp-slot figure img{width:100%;height:100%;object-fit:contain}
 .cmp-slot .who{padding:8px 10px 2px;font-weight:700;font-size:1rem}
 .cmp-slot .cap{padding:0 10px;color:var(--sub);font-size:.82rem;min-height:1.4em}
 .cmp-frames{display:flex;flex-wrap:wrap;gap:4px;padding:8px 10px 10px}
 .cmp-frames button{font:inherit;font-size:.8rem;font-weight:700;min-width:2em;padding:2px 0;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
 .cmp-frames button[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
-.cmp-empty{display:flex;align-items:center;justify-content:center;text-align:center;aspect-ratio:480/460;color:var(--sub);font-size:.85rem;padding:12px;background:var(--bg)}
+.cmp-empty{display:flex;align-items:center;justify-content:center;text-align:center;aspect-ratio:480/687;color:var(--sub);font-size:.85rem;padding:12px;background:var(--bg)}
 @media (max-width:420px){.cmp-btn{font-size:.62rem;padding:4px 5px;right:3px;bottom:3px}.grid figcaption{padding-bottom:24px}.cmp-pair{gap:6px;padding:10px 10px 4px}.cmp-slot .who{font-size:.9rem;padding:6px 8px 0}.cmp-slot .cap{padding:0 8px;font-size:.75rem}.cmp-frames{padding:6px 8px 8px}}
 .filter-hint{margin:2px 16px 0;color:var(--sub);font-size:.8rem}
 
@@ -215,7 +215,7 @@ nav.filter .chip:focus-visible{outline:3px solid var(--red);outline-offset:2px}
 <script>
 (function(){
 var DATES=[{"d": "2026-09-22", "label": "2026年9月22日"}];
-var SALT="JaxLRglB0AhO5vI/qTEz5w==",CIV="PNA0z4xOlWC6jQCC",CHK="Kd9iUIeZv/y/vrTCRN+i0c1MKorTqIdC",ITER=600000,KS="ffire-key-v2",DS="ffire-date";
+var SALT="JaxLRglB0AhO5vI/qTEz5w==",CIV="KFb4Krod+Li5uL3A",CHK="kC8G84Zp3rWg58UHSIATxM2WTybPOYYR",ITER=600000,KS="ffire-key-v2",DS="ffire-date";
 var KEY=null;
 function d64(s){var r=atob(s),u=new Uint8Array(r.length);for(var i=0;i<r.length;i++)u[i]=r.charCodeAt(i);return u;}
 function e64(u){var s="";for(var i=0;i<u.length;i++)s+=String.fromCharCode(u[i]);return btoa(s);}
