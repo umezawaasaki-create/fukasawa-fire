@@ -326,7 +326,7 @@ tabs.forEach(function(t,i){
 function hasTab(n){return tabs.some(function(t){return t.dataset.tab===n;});}
 function fromHash(){var h=location.hash.slice(1);if(hasTab(h)){show(h);toTop();return true;}var p=panelOf(h);if(p){show(p);selectOnly(document.getElementById('panel-'+p),h);toTop();return true;}return false;}
 window._ffHash=fromHash;
-if(!fromHash()){var saved=null;try{saved=localStorage.getItem('formTab')}catch(e){}show(hasTab(saved)?saved:tabs[0].dataset.tab);}
+if(tabs.length&&!fromHash()){var saved=null;try{saved=localStorage.getItem('formTab')}catch(e){}show(hasTab(saved)?saved:tabs[0].dataset.tab);}
 }
 window.addEventListener('hashchange',function(){if(window._ffHash)window._ffHash();});
 async function loadDate(d){
