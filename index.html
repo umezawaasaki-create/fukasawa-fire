@@ -349,7 +349,7 @@ async function loadVideos(){
   box.innerHTML='<p class="loading">読み込み中…</p>';
   try{var r=await fetch('data/videos.json',{cache:'no-cache'});if(!r.ok)throw new Error(r.status);var j=await r.json();
     var vs=j.videos.map(function(v,i){return {v:v,d:vdate(v.title),i:i};});
-    vs.sort(function(a,b){return a.d===b.d?a.i-b.i:(a.d<b.d?1:-1);});
+    
     var html='<p class="vids-intro">全'+vs.length+'本。サムネイルをタップするとYouTubeで再生します。（<a href="'+esc(j.playlist)+'" target="_blank" rel="noopener">再生リストを開く</a>）</p>',cur=null;
     vs.forEach(function(x){
       if(x.d!==cur){if(cur!==null)html+='</div>';cur=x.d;var p=x.d.split('-');html+='<h3 class="vday">'+(x.d?p[0]+'年'+(+p[1])+'月'+(+p[2])+'日':'その他')+'</h3><div class="vgrid">';}
