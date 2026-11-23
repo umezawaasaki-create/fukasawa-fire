@@ -4,70 +4,6 @@
  "videos": [
   {
    "no": 1,
-   "id": "TZTPfNTYr4g",
-   "title": "2026.11.23個人戦(梅澤前田準決勝)",
-   "duration": "4:28",
-   "url": "https://www.youtube.com/watch?v=TZTPfNTYr4g",
-   "thumbnail": "https://i.ytimg.com/vi/TZTPfNTYr4g/hqdefault.jpg"
-  },
-  {
-   "no": 2,
-   "id": "txUT71esus0",
-   "title": "2026.11.23個人戦(梅澤前田1回戦)",
-   "duration": "4:18",
-   "url": "https://www.youtube.com/watch?v=txUT71esus0",
-   "thumbnail": "https://i.ytimg.com/vi/txUT71esus0/hqdefault.jpg"
-  },
-  {
-   "no": 3,
-   "id": "5SA2Asl70bw",
-   "title": "2026.11.23個人戦(梅澤前田/荒川筑比地)",
-   "duration": "3:46",
-   "url": "https://www.youtube.com/watch?v=5SA2Asl70bw",
-   "thumbnail": "https://i.ytimg.com/vi/5SA2Asl70bw/hqdefault.jpg"
-  },
-  {
-   "no": 4,
-   "id": "ca906k5bOSo",
-   "title": "2026.11.23個人戦(後藤ハリー02)",
-   "duration": "3:10",
-   "url": "https://www.youtube.com/watch?v=ca906k5bOSo",
-   "thumbnail": "https://i.ytimg.com/vi/ca906k5bOSo/hqdefault.jpg"
-  },
-  {
-   "no": 5,
-   "id": "v0mE7fDs9wo",
-   "title": "2026.11.23個人戦(渡邉種谷01)",
-   "duration": "1:11",
-   "url": "https://www.youtube.com/watch?v=v0mE7fDs9wo",
-   "thumbnail": "https://i.ytimg.com/vi/v0mE7fDs9wo/hqdefault.jpg"
-  },
-  {
-   "no": 6,
-   "id": "foZYG1JJi0k",
-   "title": "2026.11.23個人戦(梅澤前田/田崎マーティン)",
-   "duration": "",
-   "url": "https://www.youtube.com/watch?v=foZYG1JJi0k",
-   "thumbnail": "https://i.ytimg.com/vi/foZYG1JJi0k/hqdefault.jpg"
-  },
-  {
-   "no": 7,
-   "id": "WpRPfnT8nTQ",
-   "title": "2026.11.23個人戦(梅澤前田/青山西澤)",
-   "duration": "",
-   "url": "https://www.youtube.com/watch?v=WpRPfnT8nTQ",
-   "thumbnail": "https://i.ytimg.com/vi/WpRPfnT8nTQ/hqdefault.jpg"
-  },
-  {
-   "no": 8,
-   "id": "jo0m8IAb05E",
-   "title": "2026.11.23個人戦(梅澤前田/藁田金端)",
-   "duration": "",
-   "url": "https://www.youtube.com/watch?v=jo0m8IAb05E",
-   "thumbnail": "https://i.ytimg.com/vi/jo0m8IAb05E/hqdefault.jpg"
-  },
-  {
-   "no": 9,
    "id": "NUolJOD6Hlo",
    "title": "2026.11.23個人戦(梅澤前田決勝)",
    "duration": "8:23",
@@ -75,7 +11,7 @@
    "thumbnail": "https://i.ytimg.com/vi/NUolJOD6Hlo/hqdefault.jpg"
   },
   {
-   "no": 10,
+   "no": 2,
    "id": "g_e4EPfh9jY",
    "title": "2026.11.23個人戦(梅澤前田準決勝)",
    "duration": "7:56",
@@ -83,7 +19,79 @@
    "thumbnail": "https://i.ytimg.com/vi/g_e4EPfh9jY/hqdefault.jpg"
   },
   {
+   "no": 3,
+   "id": "TZTPfNTYr4g",
+   "title": "2026.11.23個人戦(梅澤前田準々決勝)",
+   "duration": "4:28",
+   "url": "https://www.youtube.com/watch?v=TZTPfNTYr4g",
+   "thumbnail": "https://i.ytimg.com/vi/TZTPfNTYr4g/hqdefault.jpg"
+  },
+  {
+   "no": 4,
+   "id": "txUT71esus0",
+   "title": "2026.11.23個人戦(梅澤前田1回戦)",
+   "duration": "4:18",
+   "url": "https://www.youtube.com/watch?v=txUT71esus0",
+   "thumbnail": "https://i.ytimg.com/vi/txUT71esus0/hqdefault.jpg"
+  },
+  {
+   "no": 5,
+   "id": "5SA2Asl70bw",
+   "title": "2026.11.23個人戦(梅澤前田/荒川筑比地)",
+   "duration": "3:46",
+   "url": "https://www.youtube.com/watch?v=5SA2Asl70bw",
+   "thumbnail": "https://i.ytimg.com/vi/5SA2Asl70bw/hqdefault.jpg"
+  },
+  {
+   "no": 6,
+   "id": "foZYG1JJi0k",
+   "title": "2026.11.23個人戦(梅澤前田/田崎マーティン)",
+   "duration": "5:05",
+   "url": "https://www.youtube.com/watch?v=foZYG1JJi0k",
+   "thumbnail": "https://i.ytimg.com/vi/foZYG1JJi0k/hqdefault.jpg"
+  },
+  {
+   "no": 7,
+   "id": "WpRPfnT8nTQ",
+   "title": "2026.11.23個人戦(梅澤前田/青山西澤)",
+   "duration": "9:12",
+   "url": "https://www.youtube.com/watch?v=WpRPfnT8nTQ",
+   "thumbnail": "https://i.ytimg.com/vi/WpRPfnT8nTQ/hqdefault.jpg"
+  },
+  {
+   "no": 8,
+   "id": "jo0m8IAb05E",
+   "title": "2026.11.23個人戦(梅澤前田/藁田金端)",
+   "duration": "6:53",
+   "url": "https://www.youtube.com/watch?v=jo0m8IAb05E",
+   "thumbnail": "https://i.ytimg.com/vi/jo0m8IAb05E/hqdefault.jpg"
+  },
+  {
+   "no": 9,
+   "id": "ca906k5bOSo",
+   "title": "2026.11.23個人戦(後藤ハリー02)",
+   "duration": "3:10",
+   "url": "https://www.youtube.com/watch?v=ca906k5bOSo",
+   "thumbnail": "https://i.ytimg.com/vi/ca906k5bOSo/hqdefault.jpg"
+  },
+  {
+   "no": 10,
+   "id": "RM5j_Zn0bTU",
+   "title": "2026.11.23個人戦(後藤ハリー01)",
+   "duration": "0:59",
+   "url": "https://www.youtube.com/watch?v=RM5j_Zn0bTU",
+   "thumbnail": "https://i.ytimg.com/vi/RM5j_Zn0bTU/hqdefault.jpg"
+  },
+  {
    "no": 11,
+   "id": "v0mE7fDs9wo",
+   "title": "2026.11.23個人戦(渡邉種谷01)",
+   "duration": "1:11",
+   "url": "https://www.youtube.com/watch?v=v0mE7fDs9wo",
+   "thumbnail": "https://i.ytimg.com/vi/v0mE7fDs9wo/hqdefault.jpg"
+  },
+  {
+   "no": 12,
    "id": "k9FY3Te37tc",
    "title": "2026.11.23個人戦(高橋大塚03)",
    "duration": "0:51",
@@ -91,20 +99,12 @@
    "thumbnail": "https://i.ytimg.com/vi/k9FY3Te37tc/hqdefault.jpg"
   },
   {
-   "no": 12,
+   "no": 13,
    "id": "JrsZVD6su8U",
    "title": "2026.11.23個人戦(高橋大塚02)",
    "duration": "3:49",
    "url": "https://www.youtube.com/watch?v=JrsZVD6su8U",
    "thumbnail": "https://i.ytimg.com/vi/JrsZVD6su8U/hqdefault.jpg"
-  },
-  {
-   "no": 13,
-   "id": "RM5j_Zn0bTU",
-   "title": "2026.11.23個人戦(後藤ハリー01)",
-   "duration": "0:59",
-   "url": "https://www.youtube.com/watch?v=RM5j_Zn0bTU",
-   "thumbnail": "https://i.ytimg.com/vi/RM5j_Zn0bTU/hqdefault.jpg"
   },
   {
    "no": 14,
